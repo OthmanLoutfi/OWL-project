@@ -1,0 +1,9 @@
+# Get all stations :
+
+SELECT * WHERE {
+  ?poi rdf:type ns:Station.
+  ?poi ns:hasLatitude ?lat.
+  ?poi ns:hasLongitude ?long.
+  ?poi ns:hasName ?name.
+  ?poi ns:hasDistrict ?district.
+} 
