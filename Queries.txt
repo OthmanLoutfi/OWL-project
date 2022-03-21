@@ -39,3 +39,23 @@ SELECT * WHERE {
   ?poi ns:hasAge ?Age.
  FILTER(?Age<51)
 } 
+
+# List name of travellers with optinal properties
+
+SELECT * WHERE {
+  ?tr rdf:type ns:Traveler.
+  ?tr ns:hasName ?name.
+  OPTIONAL {  ?tr ns:hasAge ?age. }
+  OPTIONAL {?tr ns:hasEmail ?email.}
+} 
+
+
+# List all trips with optional travelers
+
+
+SELECT * WHERE {
+  ?tr rdf:type ns:Trip.
+  ?tr ns:hasArrival ?arr.
+  ?tr ns:hasDeparture ?dep.
+  OPTIONAL {  ?tr ns:hasTraveler ?tra. }
+} 
