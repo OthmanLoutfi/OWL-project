@@ -52,7 +52,7 @@ SELECT * WHERE {
 }
 
 
-# List name of travellers with optinal properties
+# List name of travellers with optional properties
 
 SELECT * WHERE {
   ?tr rdf:type ns:Traveler.
@@ -74,7 +74,7 @@ SELECT * WHERE {
 
 
 
-# Construct query 
+# Construct query : Construct RDF triple of all station that contains District
 
 CONSTRUCT {
 ?station rdf:type ns:Station.
@@ -82,14 +82,13 @@ CONSTRUCT {
 WHERE {?station ns:hasDistrict ?capital.}
 
 
-# ASK query 
+# ASK query : Search if Berlin is a district of station. It will return true or false
 
 ASK {SELECT * WHERE { ?tr rdf:type  ns:Station.
  ?tr ns:hasDistrict " Berlin".
            }}
            
-# DESCRIBE query
-
+# DESCRIBE query : Describe content of Station as RDF-triples
 
 DESCRIBE ?tr
 WHERE  { ?tr rdf:type  ns:Station. 
