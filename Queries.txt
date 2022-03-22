@@ -50,3 +50,49 @@ SELECT * WHERE {
   ?tra ns:hasAge ?age.
   
 }
+
+
+# List name of travellers with optinal properties
+
+SELECT * WHERE {
+  ?tr rdf:type ns:Traveler.
+  ?tr ns:hasName ?name.
+  OPTIONAL {  ?tr ns:hasAge ?age. }
+  OPTIONAL {?tr ns:hasEmail ?email.}
+} 
+
+
+# List all trips with optional travelers
+
+
+SELECT * WHERE {
+  ?tr rdf:type ns:Trip.
+  ?tr ns:hasArrival ?arr.
+  ?tr ns:hasDeparture ?dep.
+  OPTIONAL {  ?tr ns:hasTraveler ?tra. }
+} 
+
+
+
+# Construct query 
+
+CONSTRUCT {
+?station rdf:type ns:Station.
+}
+WHERE {?station ns:hasDistrict ?capital.}
+
+
+# ASK query 
+
+ASK {SELECT * WHERE { ?tr rdf:type  ns:Station.
+ ?tr ns:hasDistrict " Berlin".
+           }}
+           
+# DESCRIBE query
+
+
+DESCRIBE ?tr
+WHERE  { ?tr rdf:type  ns:Station. 
+}
+
+
