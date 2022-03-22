@@ -59,3 +59,15 @@ SELECT * WHERE {
   ?tr ns:hasDeparture ?dep.
   OPTIONAL {  ?tr ns:hasTraveler ?tra. }
 } 
+
+
+
+# Construct query 
+
+CONSTRUCT {
+?station rdf:type ns:Station.
+}
+WHERE {?station ns:hasDistrict ?capital.}
+
+
+
