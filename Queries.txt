@@ -39,3 +39,14 @@ SELECT * WHERE {
   ?poi ns:hasAge ?Age.
  FILTER(?Age<51)
 } 
+
+
+# Get traveler from join to trip object
+
+SELECT * WHERE {
+  ?t rdf:type ns:Trip.
+  ?t ns:hasTraveler ?tra.
+  ?tra ns:hasName ?name.
+  ?tra ns:hasAge ?age.
+  
+}
