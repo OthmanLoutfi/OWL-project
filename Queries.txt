@@ -72,7 +72,7 @@ WHERE {?station ns:hasDistrict ?capital.}
 
 # ASK query 
 
-ASK {SELECT * WHERE { ?tr rdf:type  ns:Staion.
+ASK {SELECT * WHERE { ?tr rdf:type  ns:Station.
  ?tr ns:hasDistrict " Berlin".
            }}
            
