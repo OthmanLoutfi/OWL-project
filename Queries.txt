@@ -95,3 +95,11 @@ WHERE  { ?tr rdf:type  ns:Station.
 }
 
 
+
+# SWRL RULES
+
+Traveler(?x)  ->  Person(?x)
+hasArrival(?x1, ?x2) ^ hasDeparture(?x1, ?x3) -> hasComplete(?x1, ?x1)
+
+
+
