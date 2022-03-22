@@ -70,4 +70,11 @@ CONSTRUCT {
 WHERE {?station ns:hasDistrict ?capital.}
 
 
+#ASK query 
+
+ASK {SELECT * WHERE { ?tr rdf:type  ns:Staion.
+ ?tr ns:hasDistrict " Berlin".
+           }}
+
+
 
