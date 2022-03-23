@@ -103,3 +103,21 @@ hasArrival(?x1, ?x2) ^ hasDeparture(?x1, ?x3) -> hasComplete(?x1, ?x1)
 
 
 
+# Getcoord of all trips
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ns: <http://www.owl-ontologies.com/unnamed.owl#>
+
+SELECT * WHERE {
+  ?t rdf:type ns:Trip.
+  ?t ns:hasDeparture ?dep.
+  ?t ns:hasArrival ?ar.
+  ?dep ns:hasLatitude ?latdep.
+  ?dep ns:hasLongitude ?longdep.
+  ?ar ns:hasLatitude ?latar.
+  ?ar ns:hasLongitude ?longar.
+  
+  
+}
