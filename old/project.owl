@@ -1,0 +1,445 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.owl-ontologies.com/unnamed.owl#"
+     xml:base="http://www.owl-ontologies.com/unnamed.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:vs="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:dct="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:wot="http://xmlns.com/wot/0.1/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.owl-ontologies.com/unnamed.owl">
+        <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasArrival -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasArrival">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasDeparture -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasDeparture">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#POI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasTraveler -->
+
+    <owl:ObjectProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasTraveler">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Traveler"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasAge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasAge">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Traveler"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasDistrict -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasDistrict">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#POI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasLatitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasLatitude">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#POI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasLink -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasLink">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#Accomodation"/>
+                    <rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#Hotel"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasLongitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasLongitude">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#POI"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasName">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#POI"/>
+                    <rdf:Description rdf:about="http://www.owl-ontologies.com/unnamed.owl#Traveler"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasNumber">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Accomodation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#hasStar -->
+
+    <owl:DatatypeProperty rdf:about="http://www.owl-ontologies.com/unnamed.owl#hasStar">
+        <rdfs:domain rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Accomodation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Accomodation -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Accomodation">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#POI"/>
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Station"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Camping -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Camping">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Accomodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Hotel -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Hotel">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Accomodation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#POI -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#POI">
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Traveler"/>
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Station -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Station">
+        <rdfs:subClassOf rdf:resource="http://www.owl-ontologies.com/unnamed.owl#POI"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Traveler -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Traveler">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <owl:disjointWith rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#Trip -->
+
+    <owl:Class rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#hasArrival"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/unnamed.owl#POI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#hasDeparture"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/unnamed.owl#POI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#hasTraveler"/>
+                <owl:someValuesFrom rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Traveler"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#hasTraveler"/>
+                <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#hasArrival"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.owl-ontologies.com/unnamed.owl#hasDeparture"/>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#C1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#C1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Camping"/>
+        <hasDistrict rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JURA</hasDistrict>
+        <hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.677036</hasLatitude>
+        <hasLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.lapergola.com</hasLink>
+        <hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.781005</hasLongitude>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA PERGOLA</hasName>
+        <hasNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0384257003</hasNumber>
+        <hasStar rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</hasStar>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#C2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#C2">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Camping"/>
+        <hasDistrict rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FINISTERE</hasDistrict>
+        <hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.048943</hasLatitude>
+        <hasLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">www.camping-entrepierresetmer.com</hasLink>
+        <hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-4.481458</hasLongitude>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAMPING ENTRE PIERRES ET MER</hasName>
+        <hasNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0785909108</hasNumber>
+        <hasStar rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</hasStar>
+    </owl:NamedIndividual>
+    
+
+	<owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Aix-en-Provence TGV">
+	<rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Station"/>
+	<hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.847</hasLongitude>
+	<hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.097</hasLatitude>
+	<hasDistrict rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</hasDistrict>
+	<hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aix-en-Provence TGV</hasName>
+	</owl:NamedIndividual>
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#G1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#G1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Station"/>
+        <hasDistrict rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</hasDistrict>
+        <hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.097</hasLatitude>
+        <hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.847</hasLongitude>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aix-en-Provence TGV</hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#G2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#G2">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Station"/>
+        <hasDistrict rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ain</hasDistrict>
+        <hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.114</hasLatitude>
+        <hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.824</hasLongitude>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bellegarde</hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#G3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#G3">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Station"/>
+        <hasDistrict rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris</hasDistrict>
+        <hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.871</hasLatitude>
+        <hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.395</hasLongitude>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris-Est</hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#G4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#G4">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Station"/>
+        <hasDistrict rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris</hasDistrict>
+        <hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">48.881</hasLatitude>
+        <hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.317</hasLongitude>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paris-Nord</hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#H1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#H1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Hotel"/>
+        <hasDistrict rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAVOIE</hasDistrict>
+        <hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">45.45148</hasLatitude>
+        <hasLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.hotel-athena-brides.com</hasLink>
+        <hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.571805</hasLongitude>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hôtel Athêna</hasName>
+        <hasNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0479553101</hasNumber>
+        <hasStar rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</hasStar>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#H2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#H2">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Hotel"/>
+        <hasDistrict rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEUX-SEVRES</hasDistrict>
+        <hasLatitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.30036</hasLatitude>
+        <hasLink rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.reixhotel.com</hasLink>
+        <hasLongitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.495981</hasLongitude>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REIX Hôtel</hasName>
+        <hasNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0549091515</hasNumber>
+        <hasStar rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</hasStar>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#I1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#I1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Traveler"/>
+        <hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</hasAge>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul</hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#I2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#I2">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Traveler"/>
+        <hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">32</hasAge>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Linda</hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#I3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#I3">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Traveler"/>
+        <hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</hasAge>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jean</hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#I4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#I4">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Traveler"/>
+        <hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#int">22</hasAge>
+        <hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Angel</hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.owl-ontologies.com/unnamed.owl#trip1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#trip1">
+        <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#G1"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#G2"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
