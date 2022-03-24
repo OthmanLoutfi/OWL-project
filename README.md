@@ -3,7 +3,7 @@
 ## Files
 
 ### Ontology
-- Hotelrain.owl
+- [Hotelrain.owl](Hotelrain.owl)
 - Hotelrain - RDF.rdf
 
 ### Queries
