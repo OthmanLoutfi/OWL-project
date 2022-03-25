@@ -10,6 +10,7 @@ In your computer :
 
 * In the shell, go into the repository using `cd PATH_TO_REPO`
 * Install all the necessary packages by running in the shell `pip install -r requirements.txt`
+* Then enter the app folder by typing `cd flask_app`
 * Make some set-up to prepare the app
   * On Linux, Mac
   ```console
