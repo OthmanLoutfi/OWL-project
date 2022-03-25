@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <!-- Title-->
+    <center><h1>{% block title %} Make a trip with HotelRain {% endblock %}</h1></center>
+<center><img src="{{url_for('static', filename='destination.png')}}"width="75" height="75" align="middle" /></center>
+
+    <!-- Make a choice -->
+    <center>
+
+        <br>
+        <br>
+        <br>
+
+        <div class="container">
+
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                
+                <div class="card">
+
+                    <form method='POST' action="" enctype="multipart/form-data">
+                        <div class="form-group m-3">
+                            <label>Choose a Departure</label>
+                            <select id="departure" name="departure" class="form-control">
+                                <option value='none'>Select a departure ...</option>
+                                {% for s in stations %}
+                                <option value='{{s.Latitude}},{{s.Longitude}}'>{{s.Name}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+
+                        <div class="form-group m-3">
+                            <label>Choose an arrival</label>
+                            <select id="arrival" name="arrival" class="form-control">
+                                <option value='none'>Select an arrival</option>
+                                {% for s in stations %}
+                                <option value='{{s.Latitude}},{{s.Longitude}}'>{{s.Name}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+
+
+                        <button type='submit' class="btn btn-primary m-3">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </center>
+
+
+
+
+
+{% endblock %}
+

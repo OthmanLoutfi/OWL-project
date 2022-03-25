@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <!-- Title-->
+    <center><h1>{% block title %} Welcome to HotelRail {% endblock %}</h1></center>
+
+    <!-- Display the list -->
+    <center>
+
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-info">List of trips</li>
+             <form method="post" action="/traveler">
+
+                {%for t in traveler%}
+                <button type="submit" value="{{t.Name}},{{t.Age}}" class="list-group-item list-group-item-action" name="t">{{t.Name}} : {{t.Age}}</button> 
+                {% endfor %}
+
+            </form>
+            
+        </ul>
+
+        
+
+    </center>
+
+
+
+
+
+{% endblock %}
+

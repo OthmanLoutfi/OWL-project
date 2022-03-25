@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <!-- Title-->
+    <center><h1>{% block title %} Welcome to HotelRail {% endblock %}</h1></center>
+    <!-- Display all the POI -->
+    <center>
+
+        <br>
+        <br>
+        
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-info">List of POI</li>
+             <form method="post" action="/">
+
+                <button type="submit" value="s" class="list-group-item list-group-item-action" name="s">Stations</button> 
+                <button type="submit" value="h" class="list-group-item list-group-item-action" name="s">Hotels and Campings</button> 
+                <button type="submit" value="all" class="list-group-item list-group-item-action" name="s">Display all POI</button>
+
+
+                {% for s in stations %}
+                <button type="submit" value="{{s.Latitude}}, {{s.Longitude}}" class="list-group-item list-group-item-action" name="s">{{s.Name}}</button>
+                {% endfor %}
+
+            </form>
+            
+        </ul>
+
+    </center>
+
+
+
+
+
+{% endblock %}
+
+
+
+
+
+
+ 
+
