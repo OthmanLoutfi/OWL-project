@@ -1,8 +1,35 @@
-# YO
+# HotelRain
 
-### Part 1 (4 pt) :classess and properties (2 pt), restrictions and defined classes (1pt),Extern ontology reuse (1 pt)
-### Part 2 (4 pts) : individuals (1pt) JSON-LD (2pt: more than 2 sources, 1pt: one source only); JSON-LD more than one entity (class) (1pts);
-### Part 3 (4 points) : SPARQL (3 pts), SWRL (1 pts)
-### Part 4 (8pts) : Entity search (POI, travellers, trip)--->(1 pts each : 3pts); Advanced functionnalty (could trip computation, or any other advanced finctionnalty such trip computattin or traveller history) -->(2pts); any other information associated to POI such as weather forcasting (or another entity) --> 2pts; result export in RDF or JSON-LD (1pt)
+## Installation
 
-### Bonus : triple store (2pts); GUI (2pts), RDFA (1 pt) , realtime dynamic data update (2pt) , etc ….. 1 pt for each mentionned extensions comments
+If you want to have a copy of the code, you can : 
+
+* Clone this repo : `git clone git@github.com:OthmanLoutfi/OWL-project.git`
+
+In your computer : 
+
+* In the shell, go into the repository using `cd PATH_TO_REPO`
+* Install all the necessary packages by running in the shell `pip install -r requirements.txt`
+* Make some set-up to prepare the app
+  * On Linux, Mac
+  ```console
+  $ export FLASK_APP = app
+  $ export FLASK_ENV = development
+  ```
+  * On windows
+  ```console
+  > set FLASK_APP = app
+  > set FLASK_ENV = development
+  ```
+* Run the server by typing `flask run`
+* Open a web browser like Chrome and go to this URL : http://localhost:5000/
+
+
+## How to use the app
+
+Once the web page is loaded, you can navigate through all the pages
+
+1. **Welcome page** : You can access to three maps, one with all the stations in France, one with all the Hotels and the last one with all the sations and hotels.
+2. **Make A Trip** : You can decide to make a Trip and visualize it in a Map, you just have to choose a station of departure and a stations of arrival
+3. **History of all Trips** : You can access to a history of all the trips and visualize them in a map
+4. **Traveler** : You can access to the history of trips from one traveler in particular.
