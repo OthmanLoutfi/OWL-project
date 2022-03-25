@@ -9832,11 +9832,12 @@
 
 
 
+     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip0">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Paris-Nord"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Narbonne"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Champagne-Ardenne TGV"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Bellegarde"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -9844,9 +9845,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip2">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saverne"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Montpellier-Sud-de-France"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lamballe"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Mantes-la-Jolie"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -9854,9 +9855,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip4">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Futuroscope"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Menton"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Nantes"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lorraine TGV"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -9864,9 +9865,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip6">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Brest"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Nurieux"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saumur"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Étienne-Châteaucreux"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -9874,9 +9875,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip8">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Tarbes"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Frasne"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Landry"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Carcassonne"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -9884,9 +9885,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip10">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#La Teste"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Châlons-en-Champagne"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Arcachon"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Beaune"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -9894,9 +9895,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip12">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lyon-Part-Dieu"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Tourcoing"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Vitré"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Mulhouse-Ville"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -9904,9 +9905,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip14">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Nîmes"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Bordeaux-Saint-Jean"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Niort"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#La Teste"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -9914,9 +9915,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip16">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Quimper"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Angers-Saint-Laud"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Tourcoing"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Dol-de-Bretagne"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -9924,9 +9925,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip18">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Forbach"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Annemasse"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Le Creusot - Montceau - Montchanin"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Montauban-Ville-Bourbon"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -9934,8 +9935,8 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip20">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Épinal"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Rang-du-Fliers - Verton"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Perpignan"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#TGV Haute-Picardie"/>
         <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
     </owl:NamedIndividual>
 
@@ -9944,9 +9945,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip22">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Besançon Franche-Comté TGV"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Rosporden"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lourdes"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Sallanches - Combloux - Megève"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -9954,9 +9955,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip24">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Thonon-les-Bains"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Paris-Montparnasse"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Épinal"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Sedan"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -9964,8 +9965,8 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip26">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Dié-des-Vosges"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Mulhouse-Ville"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Brieuc"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Valence-Ville"/>
         <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
     </owl:NamedIndividual>
 
@@ -9974,9 +9975,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip28">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Morlaix"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Boulogne-Ville"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Orange"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Valence TGV"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -9984,9 +9985,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip30">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Amiens"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Champagne-Ardenne TGV"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Calais - Fréthun"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Béthune"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -9994,8 +9995,8 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip32">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Béthune"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Orthez"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Mâcon-Ville"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Douai"/>
         <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
     </owl:NamedIndividual>
 
@@ -10004,9 +10005,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip34">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Le Creusot - Montceau - Montchanin"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Sélestat"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Vitry-le-François"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lyon-Saint-Exupéry TGV"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -10014,8 +10015,8 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip36">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#La Rochelle-Ville"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Paris-Est"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Nice-Ville"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Dié-des-Vosges"/>
         <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
     </owl:NamedIndividual>
 
@@ -10024,9 +10025,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip38">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#La Roche-sur-Yon"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Agen"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Le Pouliguen"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Biarritz"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -10034,9 +10035,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip40">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lorraine TGV"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Auray"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Pau"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Angers-Saint-Laud"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -10044,9 +10045,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip42">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lille-Europe"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#La Baule-Escoublac"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Mâcon-Loché TGV"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Jean-de-Luz - Ciboure"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -10054,9 +10055,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip44">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Albertville"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Dunkerque"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Cannes"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Narbonne"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -10064,9 +10065,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip46">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Carcassonne"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Angoulême"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Calais-Ville"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Antibes"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -10074,9 +10075,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip48">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Meuse TGV"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Chalon-sur-Saône"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Dax"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Nîmes"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -10084,9 +10085,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip50">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Nice-Ville"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Michel - Valloire"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Bordeaux-Saint-Jean"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lille-Europe"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -10094,9 +10095,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip52">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Arcachon"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Montpellier-Saint-Roch"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Rethel"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Montpellier-Sud-de-France"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -10104,9 +10105,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip54">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Arles"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Marseille-Saint-Charles"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Plouaret-Trégor"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lens"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -10114,9 +10115,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip56">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Calais - Fréthun"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Miramas"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Paris-Gare-de-Lyon"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Agen"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -10124,9 +10125,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip58">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Tours"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lamballe"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Valenciennes"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Massy TGV"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -10134,8 +10135,8 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip60">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Dole-Ville"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Rethel"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Arles"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Hazebrouck"/>
         <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
     </owl:NamedIndividual>
 
@@ -10144,9 +10145,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip62">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lille-Flandres"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Montbard"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Facture-Biganos"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Paris-Est"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -10154,9 +10155,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip64">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Montauban-Ville-Bourbon"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Douai"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Vannes"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Quimper"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -10164,9 +10165,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip66">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Redon"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Mâcon-Ville"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Nurieux"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Miramas"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -10174,9 +10175,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip68">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Nantes"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Toulon"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Annemasse"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lannion"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -10184,9 +10185,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip70">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Vannes"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Moûtiers - Salins - Brides-les-Bains"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Strasbourg-Ville"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Bar-le-Duc"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -10194,9 +10195,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip72">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Valence TGV"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lannion"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Cluses"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Tarbes"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -10204,9 +10205,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip74">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Metz-Ville"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Aime-La Plagne"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Brest"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Croix - Wasquehal"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -10214,9 +10215,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip76">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Les Arcs - Draguignan"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Dol-de-Bretagne"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Michel - Valloire"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Sélestat"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -10224,9 +10225,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip78">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Rouen-Rive-Droite"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Bayonne"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Raphaël-Valescure"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#La Baule-Escoublac"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -10234,8 +10235,8 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip80">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Annecy"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Hyères"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Bourg-en-Bresse"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Toulouse-Matabiau"/>
         <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
     </owl:NamedIndividual>
 
@@ -10244,8 +10245,8 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip82">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Hendaye"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Mantes-la-Jolie"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Étaples - Le Touquet"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Menton"/>
         <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
     </owl:NamedIndividual>
 
@@ -10254,9 +10255,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip84">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Sablé-sur-Sarthe"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Béziers"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Besançon-Viotte"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Avignon TGV"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -10264,9 +10265,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip86">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Bellegarde"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Nazaire"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Rennes"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Moûtiers - Salins - Brides-les-Bains"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -10274,9 +10275,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip88">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Vitry-le-François"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Libourne"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Charleville-Mézières"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Metz-Ville"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I4"/>
     </owl:NamedIndividual>
 
 
@@ -10284,8 +10285,8 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip90">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Marne-la-Vallée - Chessy"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lyon-Perrache"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Bayonne"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Sablé-sur-Sarthe"/>
         <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
     </owl:NamedIndividual>
 
@@ -10294,8 +10295,8 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip92">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Mouchard"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Hazebrouck"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Laval"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Rouen-Rive-Droite"/>
         <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
     </owl:NamedIndividual>
 
@@ -10304,9 +10305,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip94">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Sallanches - Combloux - Megève"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Landerneau"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Pierre-des-Corps"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Dijon-Ville"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
@@ -10314,9 +10315,9 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip96">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Saint-Jean-de-Luz - Ciboure"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Nîmes-Pont-du-Gard"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Ancenis"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Landerneau"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I2"/>
     </owl:NamedIndividual>
 
 
@@ -10324,14 +10325,14 @@
     
      <owl:NamedIndividual rdf:about="http://www.owl-ontologies.com/unnamed.owl#Trip98">
         <rdf:type rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Trip"/>
-        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Chambéry - Challes-les-Eaux"/>
-        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Besançon-Viotte"/>
-        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I1"/>
+        <hasArrival rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Montpellier-Saint-Roch"/>
+        <hasDeparture rdf:resource="http://www.owl-ontologies.com/unnamed.owl#Lunéville"/>
+        <hasTraveler rdf:resource="http://www.owl-ontologies.com/unnamed.owl#I3"/>
     </owl:NamedIndividual>
 
 
     
-    
+       
 
 
 

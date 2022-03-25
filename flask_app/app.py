@@ -6,7 +6,7 @@ from rdflib import Graph
 from flask import Flask, render_template, request, redirect, url_for
 
 from mapp import generate_map, generate_map_several
-from readQuery import readHotel, readStation, historyTrip
+from readQuery import readHotel, readStation, historyTrip, readTraveler, historyTraveler
 
 app = Flask(__name__)
 
@@ -98,6 +98,25 @@ def history():
     elif request.method == 'GET':
         return render_template("history.html", trips = trip)
 
+
+@app.route("/traveler", methods=['GET', 'POST'])
+def traveler():
+
+    traveler = readTraveler()
+
+    if request.method == 'POST':
+        v = request.form.get('t').split(",")
+        name, age = v[0], v[1]
+        trip = historyTraveler(v[0])
+
+        return render_template("history.html", trips=trip)
+
+
+
+        
+
+    elif request.method == 'GET':
+        return render_template("traveler.html", traveler=traveler)
 
    
 

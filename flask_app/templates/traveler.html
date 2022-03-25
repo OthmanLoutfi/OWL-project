@@ -10,10 +10,10 @@
 
         <ul class="list-group">
             <li class="list-group-item list-group-item-info">List of trips</li>
-             <form method="post" action="/history">
+             <form method="post" action="/traveler">
 
-                {%for t in trips%}
-                <button type="submit" value="{{t.departure.Latitude}}, {{t.departure.Longitude}}, {{t.arrival.Latitude}}, {{t.arrival.Longitude}}" class="list-group-item list-group-item-action" name="t">{{t.departure.Name}} -> {{t.arrival.Name}}</button> 
+                {%for t in traveler%}
+                <button type="submit" value="{{t.Name}},{{t.Age}}" class="list-group-item list-group-item-action" name="t">{{t.Name}} : {{t.Age}}</button> 
                 {% endfor %}
 
             </form>
